@@ -1,0 +1,941 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"r",
+				"res"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/* CSS declarations go here */\n",
+			"file": "microscope.css",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<head>\n  <title>microscope</title>\n</head>\n\n<body>\n  {{> hello}}\n</body>\n\n<template name=\"hello\">\n  <h1>Hello World!</h1>\n  {{greeting}}\n  <input type=\"button\" value=\"Click\" />\n</template>\n",
+			"file": "microscope.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "if (Meteor.isClient) {\n  Template.hello.greeting = function () {\n    return \"Welcome to microscope.\";\n  };\n\n  Template.hello.events({\n    'click input' : function () {\n      // template data, if any, is available in 'this'\n      if (typeof console !== 'undefined')\n        console.log(\"You pressed the button\");\n    }\n  });\n}\n\nif (Meteor.isServer) {\n  Meteor.startup(function () {\n    // code to run on server at startup\n  });\n}\n",
+			"file": "microscope.js",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/stylesheets/styles.css",
+			"settings":
+			{
+				"buffer_size": 1750,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"us",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"US",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"use",
+				"Preferences: Settings - User"
+			],
+			[
+				"p",
+				"Project: Close"
+			],
+			[
+				"save ",
+				"Project: Save As"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"ke de",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"key us",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"ke us",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"op",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"intsl",
+				"Package Control: Install Package"
+			],
+			[
+				"openr",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"browe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"lin",
+				"SublimeLint: Next Error"
+			],
+			[
+				"SYN JAVAS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"KEY",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synt",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"an",
+				"Snippet: Angular.js"
+			],
+			[
+				"sni",
+				"Snippet: Prototype"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"angula",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/len/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/len/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/len/Projects/meteor/microscope/index.html",
+		"/home/len/Projects/meteor/microscope",
+		"/home/len/Projects/meteor/twocompatible/Cient",
+		"/home/len/Projects/conway/conway.js",
+		"/home/len/Projects/twocompatible/twocompatible.sublime-project",
+		"/home/len/Projects/twocompatible/app/index.html",
+		"/home/len/Projects/twocompatible/app/views/main.html",
+		"/home/len/Projects/twocompatible/app/scripts/app.js",
+		"/home/len/Projects/twocompatible/test/spec/controllers/main.js",
+		"/home/len/Projects/twocompatible/app/scripts/controllers/main.js",
+		"/home/len/Projects/twocompatible/server.js",
+		"/home/len/Projects/twocompatible/app/models/twocompatible.js",
+		"/home/len/Projects/twocompatible/public/core.js",
+		"/home/len/Projects/twocompatible/public/index.html",
+		"/home/len/Projects/twocompatible/app/styles/main.css",
+		"/home/len/Projects/twocompatible/package.json",
+		"/home/len/Projects/twocompatible/public/tcstyles.css",
+		"/home/len/Projects/twocompatible/Gruntfile.js",
+		"/home/len/Projects/angular/yeoman3/Gruntfile.js",
+		"/home/len/Projects/angular/yeoman3/package.json",
+		"/home/len/Projects/angular/yeoman3/server.js",
+		"/home/len/Projects/twocompatible/config/database.js",
+		"/home/len/Projects/angular/yeoman4/server.js",
+		"/home/len/Projects/angular/yeoman3/test/spec/controllers/main.js",
+		"/home/len/Projects/angular/yeoman3/app/index.html",
+		"/home/len/Projects/angular/yeoman3/karma.conf.js",
+		"/home/len/Projects/angular/yeoman/app/index.html",
+		"/home/len/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/len/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/len/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/len/Projects/angular/angular-phonecat/scripts/web-server.js",
+		"/home/len/Projects/angular/angular-phonecat/app/index.html",
+		"/home/len/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/len/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/len/Projects/twocompatible/app/process.js",
+		"/home/len/Projects/twocompatible/bower_components/angular/angular.min.js",
+		"/home/len/Projects/angular/yeoman/Gruntfile.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/bower.json",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/bower_components/angular/angular.js",
+		"/home/len/Projects/angular/scotch-angular-forms/index.html",
+		"/home/len/Projects/angular/scotch-angular-forms/package.json",
+		"/home/len/Projects/angular/scotch-angular-forms/process.php",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/nflcontroller.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/nflservice.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/services/nflservice.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/controllers/headercontroller.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/index.html",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/views/header.html",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/config.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/controllers/signupcontroller.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/controllers/signincontroller.js",
+		"/home/len/Projects/angular/thinkster-firebase-tutorial/app/js/app.js",
+		"/home/len/Dropbox/Improv and acting/Improv/Thinking Bad/Websites/New Website/contact.html",
+		"/home/len/Dropbox/Improv and acting/Improv/Thinking Bad/Websites/New Website/registration.html",
+		"/home/len/Dropbox/Improv and acting/Improv/Thinking Bad/Websites/New Website/index.html",
+		"/home/len/Projects/twocompatible/Procfile",
+		"/usr/local/heroku/bin/heroku",
+		"/home/len/Projects/twocompatible/app/models/todo.js",
+		"/home/len/Projects/angular/angular-app/client/src/app/app.js",
+		"/home/len/Projects/angular/yeoman/package.json",
+		"/home/len/Projects/nodejs/node-todo/package.json",
+		"/home/len/Projects/nodejs/node-todo/test/test.js",
+		"/home/len/Projects/nodejs/node-todo/server.js",
+		"/home/len/Projects/nodejs/node-todo/public/core.js",
+		"/home/len/Projects/angular/angular-phonecat/scripts/watchr.rb",
+		"/home/len/Projects/twocompatible/index.html",
+		"/home/len/Projects/nodejs/Scotch0/public/index.html",
+		"/home/len/Projects/nodejs/Scotch0/public/core.js",
+		"/home/len/Projects/nodejs/Scotch0/server.js",
+		"/home/len/Projects/nodejs/Scotch0/package.json",
+		"/home/len/Projects/nodejs/Express/server.js",
+		"/home/len/Projects/nodejs/Express/package.json",
+		"/home/len/Projects/nodejs/simple_json.js",
+		"/home/len/.config/sublime-text-3/Packages/SideBarEnhancements/CHANGELOG",
+		"/home/len/Projects/angular/scotch-angular/index.html",
+		"/home/len/Projects/angular/index.html",
+		"/home/len/Projects/angular/Scot/pages/contact.html",
+		"/home/len/Projects/angular/Scot/pages/about.html",
+		"/home/len/Projects/angular/Scot/pages/home.html",
+		"/home/len/Projects/angular/Scot/scripts/script.js",
+		"/home/len/Projects/angular/Scot/ index.html ",
+		"/home/len/Projects/twocompatible/bower.json",
+		"/home/len/Projects/angular/scotch-angular-forms/lib/angular/angular.js",
+		"/run/user/len/gvfs/sftp:host=ssh.phx.nearlyfreespeech.net,user=lleonard188_thinkingbadtheatre/home/public/registration.html",
+		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/index.php",
+		"/home/len/Projects/angular/angular-phonecat/app/js/controllers.js",
+		"/home/len/Projects/angular/angular-phonecat/config/karma.conf.js",
+		"/home/len/Projects/nodejs/index.js",
+		"/home/len/Projects/nodejs/router.js",
+		"/home/len/Projects/nodejs/server.js",
+		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/scripts/editprofilescripts.js",
+		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/scripts/editquizscripts.js",
+		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/scripts/indexscripts.js",
+		"/home/len/Projects/twocompatible/tcstyles.css",
+		"/home/len/Dropbox/Backups/Trello Backup/tasks.html",
+		"/home/len/Projects/meteor/chatapp/client/client.js",
+		"/home/len/Projects/Meteor",
+		"/home/len/Projects/meteor/chatapp/client/client.html",
+		"/home/len/Projects/chatapp/client/client.js",
+		"/home/len/Projects/chatapp/models.js",
+		"/home/len/Projects/chatapp/client/client.html",
+		"/home/len/Dropbox/Backups/netbeansprojects"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clean",
+			"localhost",
+			"Light",
+			"ng",
+			"mongoDB",
+			"mongodb",
+			"err",
+			"\n})",
+			"function",
+			"fun",
+			"cons",
+			"Incoming",
+			"=\"<?"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "microscope.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "microscope.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "microscope.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/stylesheets/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1750,
+								1750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 986.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "mcroscope.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"maijs",
+				"app/scripts/controllers/main.js"
+			],
+			[
+				"mai",
+				"app/views/main.html"
+			],
+			[
+				"twosublime",
+				"app/views/twocompatible.sublime-project"
+			],
+			[
+				"main.html",
+				"app/views/main.html"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"twoserve",
+				"twocompatible/server.js"
+			],
+			[
+				"twoin",
+				"twocompatible/app/index.html"
+			],
+			[
+				"twomai",
+				"twocompatible/app/views/main.html"
+			],
+			[
+				"twoapp",
+				"twocompatible/app/scripts/app.js"
+			],
+			[
+				"twocore",
+				"twocompatible/public/core.js"
+			],
+			[
+				"app.j",
+				"twocompatible/app/scripts/app.js"
+			],
+			[
+				"twoind",
+				"twocompatible/app/index.html"
+			],
+			[
+				"twomainht",
+				"twocompatible/app/views/main.html"
+			],
+			[
+				"twotcs",
+				"twocompatible/public/tcstyles.css"
+			],
+			[
+				"pa",
+				"twocompatible/package.json"
+			],
+			[
+				"twoser",
+				"twocompatible/server.js"
+			],
+			[
+				"yeo3gru",
+				"angular/yeoman3/Gruntfile.js"
+			],
+			[
+				"twogr",
+				"twocompatible/Gruntfile.js"
+			],
+			[
+				"yeo3pa",
+				"angular/yeoman3/package.json"
+			],
+			[
+				"gru",
+				"twocompatible/Gruntfile.js"
+			],
+			[
+				"yeoman3grunt",
+				"angular/yeoman3/Gruntfile.js"
+			],
+			[
+				"twoda",
+				"twocompatible/config/database.js"
+			],
+			[
+				"twose",
+				"twocompatible/server.js"
+			],
+			[
+				"y3specmai",
+				"angular/yeoman3/test/spec/controllers/main.js"
+			],
+			[
+				"y3k",
+				"angular/yeoman3/karma.conf.js"
+			],
+			[
+				"yeoman3gr",
+				"angular/yeoman3/Gruntfile.js"
+			],
+			[
+				"yeoman3",
+				"angular/yeoman3/app/index.html"
+			],
+			[
+				"yeomanin",
+				"angular/yeoman/app/index.html"
+			],
+			[
+				"yeoman3in",
+				"angular/yeoman3/app/index.html"
+			],
+			[
+				"",
+				"twocompatible/server.js"
+			],
+			[
+				"phonewbse",
+				"angular/angular-phonecat/scripts/web-server.js"
+			],
+			[
+				"phonecatwe",
+				"angular/angular-phonecat/scripts/web-server.js"
+			],
+			[
+				"angular-phinde",
+				"angular/angular-phonecat/app/index.html"
+			],
+			[
+				"cor",
+				"twocompatible/public/core.js"
+			],
+			[
+				"core",
+				"twocompatible/public/core.js"
+			],
+			[
+				"twoproces",
+				"twocompatible/app/process.js"
+			],
+			[
+				"twocompatiblecore.j",
+				"twocompatible/public/core.js"
+			],
+			[
+				"twoccore",
+				"twocompatible/public/core.js"
+			],
+			[
+				"tcs",
+				"twocompatible/public/tcstyles.css"
+			],
+			[
+				"angular.min",
+				"twocompatible/bower_components/angular/angular.min.js"
+			],
+			[
+				"tcst",
+				"twocompatible/public/tcstyles.css"
+			],
+			[
+				"grunt",
+				"angular/yeoman/Gruntfile.js"
+			],
+			[
+				"bow",
+				"angular/thinkster-firebase-tutorial/bower.json"
+			],
+			[
+				"proce",
+				"angular/scotch-angular-forms/process.php"
+			],
+			[
+				"angularformsin",
+				"angular/scotch-angular-forms/index.html"
+			],
+			[
+				"angularformsind",
+				"angular/scotch-angular-forms/index.html"
+			],
+			[
+				"angular.js",
+				"angular/thinkster-firebase-tutorial/bower_components/angular/angular.js"
+			],
+			[
+				"scoind",
+				"angular/scotch-angular-forms/index.html"
+			],
+			[
+				"twoco",
+				"twocompatible/public/index.html"
+			],
+			[
+				"packa",
+				"twocompatible/package.json"
+			],
+			[
+				"twocompatibleserver",
+				"twocompatible/server.js"
+			],
+			[
+				"headercon",
+				"angular/thinkster-firebase-tutorial/app/js/controllers/headercontroller.js"
+			],
+			[
+				"head",
+				"angular/thinkster-firebase-tutorial/app/views/header.html"
+			],
+			[
+				"heaerco",
+				"angular/thinkster-firebase-tutorial/app/js/controllers/headercontroller.js"
+			],
+			[
+				"si",
+				"angular/thinkster-firebase-tutorial/app/js/controllers/signincontroller.js"
+			],
+			[
+				"signupc",
+				"angular/thinkster-firebase-tutorial/app/js/controllers/signupcontroller.js"
+			],
+			[
+				"singinc",
+				"angular/thinkster-firebase-tutorial/app/js/controllers/signincontroller.js"
+			],
+			[
+				"sign",
+				"angular/thinkster-firebase-tutorial/app/js/controllers/signincontroller.js"
+			],
+			[
+				"thinkcon",
+				"angular/thinkster-firebase-tutorial/app/js/config.js"
+			],
+			[
+				"thinksterap",
+				"angular/thinkster-firebase-tutorial/app/js/app.js"
+			],
+			[
+				"pro",
+				"twocompatible/Procfile.txt"
+			],
+			[
+				"s",
+				"nodejs/Scotch0/server.js"
+			],
+			[
+				"apptwo",
+				"twocompatible/app/models/twocompatible.js"
+			],
+			[
+				"twoappmo",
+				"twocompatible/app/models/todo.js"
+			],
+			[
+				"twodat",
+				"twocompatible/config/database.js"
+			],
+			[
+				"twocomind",
+				"twocompatible/public/index.html"
+			],
+			[
+				"node-todoser",
+				"nodejs/node-todo/server.js"
+			],
+			[
+				"twopackage.j",
+				"~/Projects/twocompatible/package.json"
+			],
+			[
+				"nodtodopac",
+				"nodejs/node-todo/package.json"
+			],
+			[
+				"node-to",
+				"nodejs/node-todo/server.js"
+			],
+			[
+				"node-todo",
+				"nodejs/node-todo/server.js"
+			],
+			[
+				"twocompatiblein",
+				"twocompatible/index.html"
+			],
+			[
+				"scotchin",
+				"nodejs/Scotch0/public/index.html"
+			],
+			[
+				"scotch0c",
+				"nodejs/Scotch0/public/core.js"
+			],
+			[
+				"scotch0",
+				"nodejs/Scotch0/server.js"
+			],
+			[
+				"scotch",
+				"nodejs/Scotch0/package.json"
+			],
+			[
+				"expresspacka",
+				"nodejs/Express/package.json"
+			],
+			[
+				"serv",
+				"nodejs/Express/server.js"
+			],
+			[
+				"scocon",
+				"angular/Scot/pages/contact.html"
+			],
+			[
+				"scotab",
+				"angular/Scot/pages/about.html"
+			],
+			[
+				"scothom",
+				"angular/Scot/pages/home.html"
+			],
+			[
+				"scotsc",
+				"angular/Scot/scripts/script.js"
+			],
+			[
+				"scotin",
+				"angular/Scot/ index.html "
+			],
+			[
+				"scotinde",
+				"angular/Scot/ index.html "
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/meteor/microscope/mcroscope.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 896.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
