@@ -16,13 +16,34 @@
 	"buffers":
 	[
 		{
-			"contents": "<head>\n  <title>microscope</title>\n</head>\n\n<body>\n  {{> hello}}\n</body>\n\n<template name=\"hello\">\n  <h1>Hello World!</h1>\n  {{greeting}}\n  <input type=\"button\" value=\"Click\" />\n</template>\n",
-			"file": "microscope.html",
-			"file_size": 189,
-			"file_write_time": 130321669184085116,
+			"file": "client/helpers/router.js",
 			"settings":
 			{
-				"buffer_size": 189,
+				"buffer_size": 141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/post_page.js",
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/main.html",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/includes/header.html",
+			"settings":
+			{
+				"buffer_size": 224,
 				"line_ending": "Unix"
 			}
 		}
@@ -33,6 +54,30 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
 			[
 				"US",
 				"Preferences: Key Bindings - User"
@@ -76,10 +121,6 @@
 			[
 				"brow",
 				"Preferences: Browse Packages"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"fetc",
@@ -211,6 +252,30 @@
 	},
 	"file_history":
 	[
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/npm/ctl-helper/main/node_modules/optimist/index.js",
+		"/home/len/Projects/meteor/microscope/client/main.html",
+		"/home/len/Projects/meteor/microscope/client/helpers/router.js",
+		"/home/len/Projects/meteor/microscope/client/views/post_page.js",
+		"/home/len/Projects/meteor/microscope/client/views/posts/post_item.html",
+		"/home/len/Projects/meteor/microscope/client/views/posts/post_page.html",
+		"/home/len/Projects/meteor/microscope/.meteor/packages",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/esprima/index.html",
+		"/home/len/Projects/meteor/microscope/client/views/posts/packages/page-js-ie-support/page-js/index.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/init-package-json/node_modules/promzard/example/index.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/npm/logging/main/node_modules/cli-color/node_modules/es5-ext/lib/Number/is-nan.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/client/packages/insecure.js",
+		"/home/len/Projects/meteor/microscope/collections/posts.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/retry/lib/retry_operation.js",
+		"/home/len/Projects/meteor/microscope/.meteor/release",
+		"/home/len/Projects/meteor/microscope/client/views/posts/post_item.js",
+		"/home/len/Projects/meteor/microscope/server/fixtures.js",
+		"/home/len/Projects/meteor/microscope/client/main.js",
+		"/home/len/Projects/meteor/microscope/server/publications.js",
+		"/home/len/Projects/meteor/microscope/client/views/posts/posts_list.js",
+		"/home/len/Projects/meteor/microscope/microscope.sublime-project",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/source-map-support/source-map-support.js",
+		"/home/len/Projects/meteor/microscope/microscope.html",
+		"/home/len/Projects/meteor/microscope/client/stylesheets/styles.css",
 		"/home/len/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/len/Projects/meteor/microscope/index.html",
 		"/home/len/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
@@ -332,6 +397,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"currentPost",
+			"\">\n",
+			"currentPost",
 			"clean",
 			"localhost",
 			"Light",
@@ -362,24 +430,110 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "microscope.html",
+					"file": "client/helpers/router.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 189,
+						"buffer_size": 141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/views/post_page.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/views/includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
 							]
 						],
 						"settings":
@@ -398,7 +552,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -443,6 +597,22 @@
 		"selected_items":
 		[
 			[
+				"mai",
+				"client/main.html"
+			],
+			[
+				"rou",
+				"client/helpers/router.js"
+			],
+			[
+				"po",
+				"client/views/posts/post_page.html"
+			],
+			[
+				"fi",
+				"server/fixtures.js"
+			],
+			[
 				"inde",
 				"app/index.html"
 			],
@@ -453,10 +623,6 @@
 			[
 				"maijs",
 				"app/scripts/controllers/main.js"
-			],
-			[
-				"mai",
-				"app/views/main.html"
 			],
 			[
 				"twosublime",
@@ -796,7 +962,7 @@
 		[
 			[
 				"",
-				"~/Projects/meteor/microscope/microscope.sublime-workspace"
+				"~/Projects/conway/conway.sublime-project"
 			]
 		],
 		"width": 380.0
