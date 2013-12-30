@@ -4,9 +4,10 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-insecure
 preserve-inputs
 bootstrap
 router
 accounts-ui-bootstrap-dropdown
 accounts-password
+jquery
+spin
