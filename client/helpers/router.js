@@ -1,12 +1,17 @@
 Meteor.Router.add({
-	'/': 'postList',
+	'/': 'postsList',
 
 	'/posts/:_id': {
 		to: 'postPage',
 		and: function(id) { Session.set('currentPostId', id); } 
 	},
 
-	'/submit' : 'postSubmit'
+	'/submit' : 'postSubmit',
+
+	'/posts/:_id/edit': {
+		to: 'postEdit',
+		and: function(id) {Session.set('currentPostId', id); }
+	}
 });	
 
 Meteor.Router.filters({

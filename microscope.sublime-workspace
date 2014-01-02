@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Meteor",
+				"Meteor.Router.to"
+			],
+			[
+				"field",
+				"fieldNames"
+			],
+			[
 				"li",
 				"link	Tag"
 			],
@@ -16,13 +24,131 @@
 	"buffers":
 	[
 		{
-			"contents": "Accounts.ui.config({\n	passwordSignupFields:'USERNAME_ONLY'\n});		",
+			"contents": "Accounts.ui.config({\n	passwordSignupFields:'USERNAME_ONLY'\n});		 	",
 			"file": "client/helpers/config.js",
-			"file_size": 63,
-			"file_write_time": 130326595151320498,
+			"file_size": 66,
+			"file_write_time": 130328328636678621,
 			"settings":
 			{
-				"buffer_size": 64,
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/includes/loading.html",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/includes/header.html",
+			"settings":
+			{
+				"buffer_size": 329,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/posts/post_submit.js",
+			"settings":
+			{
+				"buffer_size": 625,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/posts/post_page.html",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/main.html",
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/includes/errors.html",
+			"settings":
+			{
+				"buffer_size": 290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<template name=\"postEdit\">\n	{{#with post}}\n		<form class=\"main\">\n			<div class=\"control-group\">\n				<label for=\"url\" class=\"control-label\">URL</label>\n				<div class=\"controls\">\n					<input name=\"url\" type=\"text\" value=\"{{url}}\" placeholder=\"Your URL\">\n				</div>\n			</div>\n			<div class=\"control-group\">\n				<label for=\"title\" class=\"control-label\">Title</label>\n				<div class=\"controls\">\n					<input name=\"title\" type=\"text\" value=\"{{title}}\" placeholder=\"Name your post\">\n			n	</div>\n			</div>\n			<div class=\"control-group\">\n				<div class=\"controls\">\n					<input type=\"submit\" value=\"Submit\" class=\"btn btn-primary subm	it\">\n				</div>\n			</div>\n			<hr>\n			<div class=\"control-group\">\n				<div class=\"controls\">\n					<a class=\"btn btn-danger delete\" href=\"#\">Delete post</a>\n				</div>\n			</div>\n		</form>\n	{{/with}}\n</template>\n\n\n\n\n",
+			"file": "client/views/posts/post_edit.html",
+			"file_size": 837,
+			"file_write_time": 130330028322156623,
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/posts/post_edit.js",
+			"settings":
+			{
+				"buffer_size": 817,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/helpers/router.js",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/helpers/errors.js",
+			"settings":
+			{
+				"buffer_size": 141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Template.errors.helpers({\n	errors: function() {\n		return Errors.find();\n	}\n}); ",
+			"file": "client/views/includes/errors.js",
+			"file_size": 78,
+			"file_write_time": 130330923153007077,
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/posts/post_item.html",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/posts/post_item.js",
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/permissions.js",
+			"settings":
+			{
+				"buffer_size": 131,
 				"line_ending": "Unix"
 			}
 		},
@@ -30,7 +156,15 @@
 			"file": "collections/posts.js",
 			"settings":
 			{
-				"buffer_size": 160,
+				"buffer_size": 1227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/posts/posts_list.js",
+			"settings":
+			{
+				"buffer_size": 106,
 				"line_ending": "Unix"
 			}
 		}
@@ -38,9 +172,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 138.0,
 		"selected_items":
 		[
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
 			[
 				"en",
 				"Package Control: Enable Package"
@@ -218,7 +356,7 @@
 				"HTML: Encode Special Characters"
 			]
 		],
-		"width": 593.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -239,10 +377,22 @@
 	},
 	"file_history":
 	[
-		"/home/len/Projects/meteor/microscope/client/views/posts/post_submit.html",
+		"/home/len/Projects/meteor/microscope/packages/accounts-ui-bootstrap-dropdown/.build/os/packages/accounts-ui-bootstrap-dropdown.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/http-proxy/test/lib-caronte-passes-web-outgoing-test.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/npm/logging/main/node_modules/cli-color/node_modules/es5-ext/lib/Object/map-to-array.js",
+		"/home/len/Projects/meteor/microscope/client/views/posts/post_item.js",
 		"/home/len/Projects/meteor/microscope/client/views/posts/post_page.html",
-		"/home/len/Projects/meteor/microscope/client/views/includes/header.html",
+		"/home/len/Projects/meteor/microscope/client/views/posts/posts_list.html",
+		"/home/len/Projects/meteor/microscope/packages/page-js-ie-support/page-js/examples/list.jade",
+		"/home/len/Projects/meteor/microscope/packages/accounts-ui-bootstrap-dropdown/login_buttons_images.css",
+		"/home/len/Projects/meteor/microscope/packages/router/LICENSE.txt",
+		"/home/len/Projects/meteor/microscope/client/views/posts/post_submit.html",
+		"/home/len/Projects/meteor/microscope/collections/posts.js",
+		"/home/len/Projects/meteor/microscope/client/views/includes/access_denied.html",
 		"/home/len/Projects/meteor/microscope/client/helpers/router.js",
+		"/home/len/Projects/meteor/microscope/client/helpers/smart.json",
+		"/home/len/Projects/meteor/microscope/client/helpers/smart.lock",
+		"/home/len/Projects/meteor/microscope/client/views/includes/header.html",
 		"/home/len/Projects/meteor/microscope/client/views/posts/post_submit.js",
 		"/home/len/Projects/meteor/microscope/client/main.html",
 		"/home/len/Projects/meteor/microscope/client/views/posts/smart.json",
@@ -259,10 +409,8 @@
 		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/init-package-json/node_modules/promzard/example/index.js",
 		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/npm/logging/main/node_modules/cli-color/node_modules/es5-ext/lib/Number/is-nan.js",
 		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/client/packages/insecure.js",
-		"/home/len/Projects/meteor/microscope/collections/posts.js",
 		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/retry/lib/retry_operation.js",
 		"/home/len/Projects/meteor/microscope/.meteor/release",
-		"/home/len/Projects/meteor/microscope/client/views/posts/post_item.js",
 		"/home/len/Projects/meteor/microscope/server/fixtures.js",
 		"/home/len/Projects/meteor/microscope/client/main.js",
 		"/home/len/Projects/meteor/microscope/server/publications.js",
@@ -356,17 +504,7 @@
 		"/home/len/Projects/angular/Scot/ index.html ",
 		"/home/len/Projects/twocompatible/bower.json",
 		"/home/len/Projects/angular/scotch-angular-forms/lib/angular/angular.js",
-		"/run/user/len/gvfs/sftp:host=ssh.phx.nearlyfreespeech.net,user=lleonard188_thinkingbadtheatre/home/public/registration.html",
-		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/index.php",
-		"/home/len/Projects/angular/angular-phonecat/app/js/controllers.js",
-		"/home/len/Projects/angular/angular-phonecat/config/karma.conf.js",
-		"/home/len/Projects/nodejs/index.js",
-		"/home/len/Projects/nodejs/router.js",
-		"/home/len/Projects/nodejs/server.js",
-		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/scripts/editprofilescripts.js",
-		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/scripts/editquizscripts.js",
-		"/home/len/Dropbox/Backups/NetBeansProjects/PHPTwoCompatible/scripts/indexscripts.js",
-		"/home/len/Projects/twocompatible/tcstyles.css"
+		"/run/user/len/gvfs/sftp:host=ssh.phx.nearlyfreespeech.net,user=lleonard188_thinkingbadtheatre/home/public/registration.html"
 	],
 	"find":
 	{
@@ -384,6 +522,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"currentPost",
 			"\">\n",
 			"currentPost",
@@ -417,7 +556,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 15,
 			"sheets":
 			[
 				{
@@ -426,15 +565,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 64,
+						"buffer_size": 66,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
+								66,
+								66
 							]
 						],
 						"settings":
@@ -446,24 +585,426 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "collections/posts.js",
+					"file": "client/views/includes/loading.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 160,
+						"buffer_size": 52,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/views/includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/views/posts/post_submit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/views/posts/post_page.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/views/includes/errors.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "client/views/posts/post_edit.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								480,
+								480
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "client/views/posts/post_edit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "client/helpers/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "client/helpers/errors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "client/views/includes/errors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "client/views/posts/post_item.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "client/views/posts/post_item.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "lib/permissions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "collections/posts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
 							]
 						],
 						"settings":
@@ -476,6 +1017,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "client/views/posts/posts_list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -528,15 +1098,43 @@
 		"selected_items":
 		[
 			[
+				"posts.",
+				"collections/posts.js"
+			],
+			[
+				"ro",
+				"client/helpers/router.js"
+			],
+			[
+				"pos",
+				"client/views/posts/post_submit.js"
+			],
+			[
+				"err",
+				"client/views/includes/errors.js"
+			],
+			[
+				"er",
+				"client/views/includes/errors.html"
+			],
+			[
+				"ma",
+				"client/main.html"
+			],
+			[
+				"postsub",
+				"client/views/posts/post_submit.js"
+			],
+			[
 				"post",
 				"collections/posts.js"
 			],
 			[
-				"pos",
-				"client/views/posts/post_submit.html"
+				"po",
+				"client/views/posts/post_item.js"
 			],
 			[
-				"ro",
+				"rout",
 				"client/helpers/router.js"
 			],
 			[
@@ -544,20 +1142,24 @@
 				"client/main.html"
 			],
 			[
-				"r",
-				"client/helpers/router.js"
+				"posli",
+				"client/views/posts/posts_list.js"
+			],
+			[
+				"lis",
+				"client/views/posts/posts_list.html"
 			],
 			[
 				"he",
 				"client/views/includes/header.html"
 			],
 			[
-				"rou",
+				"r",
 				"client/helpers/router.js"
 			],
 			[
-				"po",
-				"client/views/posts/post_page.html"
+				"rou",
+				"client/helpers/router.js"
 			],
 			[
 				"fi",
