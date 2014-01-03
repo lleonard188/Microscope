@@ -15,7 +15,7 @@ Meteor.methods({
 
 		//check that there are no previous posts with the same link
 		if (postAttributes.url && postWithSameLink) {
-			throw new Meteor.Error(302,'This link has already been postes', postWithSameLink._id);
+			throw new Meteor.Error(302,'This link has already been posted', postWithSameLink._id);
 		};
 
 		//pick out the whitelisted keys

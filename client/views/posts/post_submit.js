@@ -8,9 +8,6 @@ Template.postSubmit.events({
 			message: $(event.target).find('[name=message]').val()
 		}
 
-		post._id = Posts.insert(post);
-		Meteor.Router.to('postPage', post);
-
 		Meteor.call('post', post, function(error,id) {
 			if (error) {
 				//display error to the user
