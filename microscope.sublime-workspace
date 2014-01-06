@@ -24,18 +24,10 @@
 	"buffers":
 	[
 		{
-			"file": "client/helpers/errors.js",
-			"settings":
-			{
-				"buffer_size": 141,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "client/views/posts/post_edit.html",
 			"settings":
 			{
-				"buffer_size": 838,
+				"buffer_size": 836,
 				"line_ending": "Unix"
 			}
 		}
@@ -248,9 +240,15 @@
 	},
 	"file_history":
 	[
-		"/home/len/Projects/meteor/microscope/client/views/post_page.js",
 		"/home/len/Projects/meteor/microscope/collections/posts.js",
 		"/home/len/Projects/meteor/microscope/client/views/posts/post_item.js",
+		"/home/len/Projects/meteor/microscope/client/helpers/errors.js",
+		"/home/len/Projects/meteor/microscope/client/views/posts/post_edit.html",
+		"/home/len/Projects/meteor/microscope/.meteor/.gitignore",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/ctl/node_modules/npm/lib/utils/is-git-url.js",
+		"/home/len/Projects/meteor/microscope/.meteor/local/build/programs/client/packages/global-imports.js",
+		"/home/len/Projects/meteor/microscope/packages/HTML5-History-API/HTML5-History-API/LICENSE-GPL",
+		"/home/len/Projects/meteor/microscope/client/views/post_page.js",
 		"/home/len/Projects/meteor/microscope/client/views/includes/errors.js",
 		"/home/len/Projects/meteor/microscope/client/views/includes/errors.html",
 		"/home/len/Projects/meteor/microscope/client/helpers/config.js",
@@ -258,11 +256,9 @@
 		"/home/len/Projects/meteor/microscope/client/views/includes/header.html",
 		"/home/len/Projects/meteor/microscope/client/views/posts/post_submit.js",
 		"/home/len/Projects/meteor/microscope/client/main.html",
-		"/home/len/Projects/meteor/microscope/client/views/posts/post_edit.html",
 		"/home/len/Projects/meteor/microscope/client/views/posts/post_edit.js",
 		"/home/len/Projects/meteor/microscope/client/helpers/router.js",
 		"/home/len/Projects/meteor/microscope/client/views/posts/posts_list.html",
-		"/home/len/Projects/meteor/microscope/client/helpers/errors.js",
 		"/home/len/Projects/meteor/microscope/client/views/posts/post_item.html",
 		"/home/len/Projects/meteor/microscope/lib/permissions.js",
 		"/home/len/Projects/meteor/microscope/client/views/posts/posts_list.js",
@@ -371,11 +367,7 @@
 		"/home/len/Projects/angular/angular-phonecat/scripts/watchr.rb",
 		"/home/len/Projects/twocompatible/index.html",
 		"/home/len/Projects/nodejs/Scotch0/public/index.html",
-		"/home/len/Projects/nodejs/Scotch0/public/core.js",
-		"/home/len/Projects/nodejs/Scotch0/server.js",
-		"/home/len/Projects/nodejs/Scotch0/package.json",
-		"/home/len/Projects/nodejs/Express/server.js",
-		"/home/len/Projects/nodejs/Express/package.json"
+		"/home/len/Projects/nodejs/Scotch0/public/core.js"
 	],
 	"find":
 	{
@@ -427,44 +419,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "client/helpers/errors.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "client/views/posts/post_edit.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 838,
+						"buffer_size": 836,
 						"regions":
 						{
 						},
@@ -536,6 +500,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"posed",
+				"client/views/posts/post_edit.html"
+			],
+			[
+				"git",
+				".meteor/.gitignore"
+			],
 			[
 				"post",
 				"client/views/posts/post_edit.html"
